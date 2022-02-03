@@ -13,7 +13,7 @@ function App() {
             </div>
             <div className='main'>
                 <Layout>
-                <Navigate to="/" />
+                
                     <div className='routes'>
                         <Routes>
 
