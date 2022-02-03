@@ -1,3 +1,7 @@
+![cryptoInfo](https://user-images.githubusercontent.com/58902798/152275857-0e0c0614-8468-48e9-b28f-baff8f4326e4.gif)
+![cryptoInfo-1](https://user-images.githubusercontent.com/58902798/152275866-a55b69b3-bb13-492a-ad14-ad6776075603.gif)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
