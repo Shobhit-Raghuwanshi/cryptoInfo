@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, Link} from 'react-router-dom';
+import { Routes, Route, Link ,Navigate} from 'react-router-dom';
 import { Layout, Typography, Space} from 'antd';
 import {Navbar, Homepage, Cryptocurrencies, CryptoDetails,News,Nft} from './components';
 import './App.css';
@@ -13,8 +13,11 @@ function App() {
             </div>
             <div className='main'>
                 <Layout>
+                <Navigate to="/" />
                     <div className='routes'>
                         <Routes>
+
+
                             <Route exact path='/' element={<Homepage />} />
                             
                             
@@ -27,6 +30,9 @@ function App() {
                             <Route exact path='/news' element={<News />} />
                                 
                             <Route exact path='/nft' element={<Nft />} />
+
+                        
+
                         </Routes>
                     </div>
                 </Layout>
@@ -49,3 +55,4 @@ function App() {
 }
 
 export default App;
+
