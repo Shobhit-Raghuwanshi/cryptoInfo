@@ -18,6 +18,8 @@ function App() {
                         <Routes>
 
 
+                            <Route exact path='/cryptoInfo' element={<Homepage />} />            
+                    
                             <Route exact path='/' element={<Homepage />} />
                             
                             
